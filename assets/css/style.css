@@ -1194,8 +1194,7 @@ section .container {
 }
 
 .portfolio-image {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto; /* Menengahkan gambar */
+  width: 100%; /* Sesuaikan lebar dengan parent */
+  height: auto; /* Biarkan tinggi mengikuti proporsi asli gambar */
+  object-fit: cover; /* Menyembunyikan bagian gambar yang tidak muat */
 }
